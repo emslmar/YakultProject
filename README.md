@@ -1,6 +1,6 @@
 # How to run the project
 
-Download the Yakut project and first of all you will need to run an instance of mysql database. In this case I am using MAMP an running it on port 8888 but if you use another one update the .env file
+Download the Yakut project and first of all you will need to run an instance of mysql database. In this case I am using MAMP an running it on port 8888 but if you use another one update the .env file. You will also need to have a database called yakult.
 
 Install node modules by writing this on the terminal:
 
