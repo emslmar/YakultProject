@@ -1,0 +1,84 @@
+<!-- views/pages/homepage.js -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+  integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+  crossorigin="anonymous"
+/>
+
+<body class="masthead">
+
+
+<br>
+<br>
+
+<div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+  <div class="d-flex justify-content-center">
+    <div class="text-center">
+      <h1 class="mx-auto my-0 text-uppercase">Rifa Yakult 2022</h1>
+      <h2 class="text-white mx-auto mt-2 mb-5">Ingresa tu codigo</h2>
+
+      <form method="GET" action="/raffle">
+        <div>
+          <label for="ticket"></label>
+          <input type="text" id="ticket" name="ticket" />
+          <br>
+          <br>
+          <br>
+        </div>
+        <div>
+          <input type="submit" value="Registrarse" />
+        </div>
+
+        <br>
+        <a href="/raffle/showAll">Check the database</a>
+      </form>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+<!-- Bootstrap core JS-->
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+  crossorigin="anonymous"
+></script>
+
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+<style>
+  .masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/assets/img/bg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.masthead h1, .masthead .h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(115, 115, 115, 0.982));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.masthead h2, .masthead .h2 {
+  max-width: 20rem;
+  font-size: 2rem;
+  color:white;
+}
+</style>
